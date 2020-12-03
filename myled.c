@@ -5,7 +5,7 @@
 #include<linux/uaccess.h>
 #include<linux/io.h>
 
-MODULE_AUTHOR("Shuya Tanaka");
+MODULE_AUTHOR("Ryuichi Ueda & Shuya Tanaka");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
@@ -15,7 +15,6 @@ static struct cdev cdv;
 static struct class *cls = NULL;
 static volatile u32 *gpio_base = NULL;
 
-int i;
 static int led_one = 23;
 static int led_two = 25;
 
