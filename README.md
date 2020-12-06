@@ -9,7 +9,7 @@ LED(赤）×　２
 ジャンパー線 ＊８
 Raspberry Pi４
 
-#実行内容詳細
+# ni
 
 echo 1 > /dev/myled0
 　　↓
@@ -27,7 +27,7 @@ echo 0 > /dev/myled0
     ↓
 GPIO25,GPIO23につながっているLED2つは点灯しない
     
-#　実行順
+# hu
 $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
@@ -36,7 +36,7 @@ $ echo 2 > /dev/myled0
 $ echo 3 > /dev/myled0
 $ echo 0 > /dev/myled0
 
-#　結果
+# ko
 動画：https://youtu.be/0GkcRRgEYU0
 
 
