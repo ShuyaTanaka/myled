@@ -9,7 +9,7 @@ LED(赤）×　２
 ジャンパー線 ＊８
 Raspberry Pi４
 
-#　実行内容詳細
+#実行内容詳細
 
 echo 1 > /dev/myled0
 　　↓
