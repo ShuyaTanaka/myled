@@ -15,15 +15,15 @@ Raspberry Pi 4
 　　↓  
 GPIO25,GPIO23につながっているLED2つが同時に点灯  
 
-echo 2 > /dev/myled0  
+`echo 2 > /dev/myled0`  
     ↓  
 GPIO25につながっているLEDは光るが、GPIO23につながっているLEDは光らない  
 
-echo 3 > /dev/myled0  
+`echo 3 > /dev/myled0`  
     ↓  
 GPIO25につながっているLEDは光らないが、GPIO23につながっているLEDは光る  
     
-echo 0 > /dev/myled0  
+`echo 0 > /dev/myled0`  
     ↓  
 GPIO25,GPIO23につながっているLED2つは点灯しない  
     
