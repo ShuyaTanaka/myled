@@ -39,4 +39,5 @@ $ echo 0 > /dev/myled0
 # 結果
 動画：https://youtu.be/0GkcRRgEYU0
 
-#
+# ライセンス
+> GNU General Public License v3.0
