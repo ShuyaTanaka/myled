@@ -11,7 +11,7 @@ Raspberry Pi 4
 
 # 実行内容詳細
 
-'echo 1 > /dev/myled0'  
+`echo 1 > /dev/myled0`  
 　　↓  
 GPIO25,GPIO23につながっているLED2つが同時に点灯  
 
